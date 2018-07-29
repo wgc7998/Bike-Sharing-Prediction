@@ -1,21 +1,19 @@
 # Bike-Sharing-Prediction
  LinearRegression / RidgeCV / Lasso
 
-## 1、 任务描述:
-  在Capital Bikeshare （美国Washington, D.C.的一个共享单车公司）提供的自行车数据上进行回归分析。训练数据为2011年的数据，要求预测2012年每天的 单车共享数量。
+## 1 任务描述:
+  在Capital Bikeshare （美国Washington, D.C.的一个共享单车公司）提供的自行车数据上进行回归分析。训练数据为2011年的数据，要求预测2012年每天的 单车共享数量。原始数据集地址：http://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset 
 
-## 2、 原始数据集地址：http://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset 
-
-### 1) 文件说明：
+## 2 文件说明：
      day.csv: 按天计的单车共享次数（本代码只使用该文件）<br> 
      hour.csv: 按小时计的单车共享次数（无需理会） <br> 
      readme：数据说明文件
             
-### 2) 字段说明：
-    Instant: 记录号 <br> 
-    Dteday：日期 <br> 
-    Season：季节（1=春天、2=夏天、3=秋天、4=冬天）<br>  
-    yr：年份，(0: 2011, 1:2012) <br> 
+## 2 字段说明：
+    Instant: 记录号 
+    Dteday：日期
+    Season：季节（1=春天、2=夏天、3=秋天、4=冬天） 
+    yr：年份，(0: 2011, 1:2012)
     mnth：月份( 1 to 12) <br> 
     hr：小时 (0 to 23) （只在hour.csv有，作业忽略此字段） <br> 
     holiday：是否是节假日 weekday：星期中的哪天，取值为0～6 <br> 
